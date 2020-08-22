@@ -15,5 +15,5 @@ The data used for model training can be downloaded here: `https://bwsyncandshare
 - `BILSTM_Evaluation.ipynb`: Read the test data & evaluates the predicitons of our BILSTM model with respect to the chosen performance measures (Accuracy, Macro-F1-Score, Macro-Jaccard-Score)
 ## Evaluation of GROBID
 - `GROBID_Prediction.ipynb`: extracts the header meta data of the papers with the GROBID service and saves them in XML-files.
-- `GROBID_Evaluation.ipynb`: Read the XML & convert them into a data frame and saves it in a CSV-file (`grobid_16467.csv`). The code also evaluates the predicitons of GROBID with respect to the chosen performance measures (Accuracy, Macro-F1-Score, Macro-Jaccard-Score)
+- `GROBID_Evaluation.ipynb`: Read the XML-files & converts them into a data frame and saves it in a CSV-file (`grobid_16467.csv`). The code also evaluates the predicitons of GROBID with respect to the chosen performance measures (Accuracy, Macro-F1-Score, Macro-Jaccard-Score)
 
